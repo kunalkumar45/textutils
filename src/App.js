@@ -10,7 +10,6 @@ function App() {
 
   const [mode, setMode] = useState('light');
   const [alert, setAlert] = useState(null);
-
   const showAlert = (massage, type) => {
     setTimeout(() => {
       setAlert(null)
